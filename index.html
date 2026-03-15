@@ -2,477 +2,464 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="This is a personal professional site for Amir Shirif, hosted on Github.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Amir Shirif is a software engineer building backend, platform, and smart-contract systems with a focus on clear interfaces and dependable production behavior.">
     <meta name="author" content="Amir Shirif">
+    <meta name="theme-color" content="#2b252c">
+    <meta property="og:title" content="Amir Shirif | Software Engineer">
+    <meta property="og:description" content="Personal site for Amir Shirif, focused on backend, platform, and smart-contract systems.">
+    <meta property="og:image" content="https://amshirif.github.io/images/profile-pic.jpg">
+    <meta property="og:image:alt" content="Portrait of Amir Shirif">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amshirif.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Amir Shirif | Software Engineer</title>
 
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta property="og:type" content="article" />
-
-    <!-- Website Title -->
-    <title>Amir Shirif</title>
-
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-
-	<!-- Favicon  -->
-    <link rel="icon" href="images/profile-pic.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+    <script>document.documentElement.classList.add("js-enabled");</script>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body data-spy="scroll" data-target=".fixed-top">
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="nav-wrap">
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="site-nav" id="site-nav" aria-label="Primary">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#work">Selected Work</a>
+                    <a href="#skills">Skills</a>
+                </nav>
+            </div>
+
+            <section class="hero section" id="top">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">Software engineer working across backend systems, platform engineering, and smart contracts</p>
+                    <h1>Amir Shirif</h1>
+                    <p class="hero-role">I build backend, platform, and contract systems that need clear interfaces and predictable behavior in production.</p>
+
+                    <div class="hero-social" aria-label="External profile links">
+                        <a class="social-link" href="https://github.com/amshirif" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.24c-3.34.73-4.05-1.41-4.05-1.41-.55-1.38-1.34-1.75-1.34-1.75-1.1-.73.08-.71.08-.71 1.21.09 1.85 1.23 1.85 1.23 1.08 1.82 2.82 1.3 3.5.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.31-5.47-5.85 0-1.29.47-2.34 1.23-3.16-.12-.3-.53-1.53.12-3.18 0 0 1-.32 3.3 1.21a11.7 11.7 0 0 1 6 0c2.3-1.53 3.3-1.21 3.3-1.21.65 1.65.24 2.88.12 3.18.77.82 1.23 1.87 1.23 3.16 0 4.55-2.81 5.54-5.49 5.84.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.82.58A12 12 0 0 0 12 .5Z"/>
+                            </svg>
+                        </a>
+                        <a class="social-link" href="https://www.linkedin.com/in/amir-shirif-b1bb8848/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M4.98 3.5A2.48 2.48 0 1 1 5 8.46a2.48 2.48 0 0 1-.02-4.96ZM2.75 9.5h4.5V21h-4.5V9.5Zm7.25 0h4.31v1.57h.06c.6-1.08 2.06-2.22 4.24-2.22 4.53 0 5.37 2.88 5.37 6.64V21h-4.5v-4.87c0-1.16-.02-2.65-1.65-2.65-1.65 0-1.9 1.25-1.9 2.56V21h-4.5V9.5Z"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="proof-grid" aria-label="Quick profile highlights">
+                        <div class="proof-item">
+                            <span class="proof-label">Experience</span>
+                            <span class="proof-value">5+ years in production blockchain engineering</span>
+                        </div>
+                        <div class="proof-item">
+                            <span class="proof-label">Focus</span>
+                            <span class="proof-value">Backend APIs, platform systems, and smart-contract engineering</span>
+                        </div>
+                        <div class="proof-item">
+                            <span class="proof-label">Platforms</span>
+                            <span class="proof-value">Ethereum, Base, Polygon</span>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="hero-panel reveal">
+                    <div class="portrait-frame">
+                        <img src="images/profile-pic.jpg" alt="Portrait of Amir Shirif" width="720" height="719" loading="eager" decoding="async" fetchpriority="high">
+                    </div>
+
+                    <div class="hero-panel-copy">
+                        <p class="panel-label">Current role</p>
+                        <p class="panel-value">Lead Smart Contract Engineer at Just Games</p>
+                        <p class="panel-note">
+                            Leading contract architecture, test performance, and event-driven integrations for a production betting platform.
+                        </p>
+                    </div>
+
+                    <div class="hero-panel-list">
+                        <div>
+                            <span class="panel-label">Strengths</span>
+                            <span class="panel-meta">API design, platform architecture, audit-ready development</span>
+                        </div>
+                        <div>
+                            <span class="panel-label">Background</span>
+                            <span class="panel-meta">M.S. Computer Science, NYU</span>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+        </header>
+
+        <main id="main">
+            <section class="section about-section" id="about">
+                <div class="section-heading reveal">
+                    <p class="section-kicker">About</p>
+                    <h2>Backend, platform, and contract work.</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-copy reveal">
+                        <p>
+                            I work on systems that sit close to money, identity, and operational risk. That started with smart
+                            contracts and EVM systems, and increasingly includes backend APIs, auth flows, and platform
+                            foundations.
+                        </p>
+                        <p>
+                            I do my best work where interfaces need to stay clear, testing has to be taken seriously, and releases
+                            need to feel predictable. Outside work, I spend time on cross country running, skiing, and Muay Thai.
+                        </p>
+                    </div>
+
+                    <div class="about-card reveal">
+                        <p class="section-kicker">How I work</p>
+                        <ul class="feature-list">
+                            <li>Backend and contract design with security and maintainability in mind</li>
+                            <li>API-first development with strong contract and codegen discipline</li>
+                            <li>Testing and CI improvements that shorten feedback loops</li>
+                            <li>Calm ownership of systems with real production constraints</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section experience-section" id="experience">
+                <div class="section-heading reveal">
+                    <p class="section-kicker">Experience</p>
+                    <h2>Roles and scope.</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <p class="timeline-role">Lead Smart Contract Engineer</p>
+                                    <p class="timeline-company">Just Games, Inc. / Nashville, TN</p>
+                                </div>
+                                <p class="timeline-date">September 2025 - Present</p>
+                            </div>
+                            <ul>
+                                <li>Own contract architecture for a decentralized betting protocol, keeping core logic, event pipelines, and operational services clearly separated.</li>
+                                <li>Cut CI turnaround by roughly 9x through test-suite restructuring and targeted build-pipeline cleanup.</li>
+                                <li>Integrated oracle and event-driven workflows that made ingestion, settlement, and downstream operations more reliable.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <p class="timeline-role">Lead Smart Contract Developer</p>
+                                    <p class="timeline-company">Telcoin, LLC. / Santa Monica, CA</p>
+                                </div>
+                                <p class="timeline-date">May 2023 - September 2025</p>
+                            </div>
+                            <ul>
+                                <li>Led architecture and delivery of staking, governance, liquidity, and treasury contracts across Ethereum, Polygon, and Telcoin's L1 development network, supporting more than $100M TVL.</li>
+                                <li>Owned delivery from specification through testing, audit coordination, release planning, and deployment for high-assurance Solidity systems.</li>
+                                <li>Raised the quality bar for contract work through stronger reviews, tighter testing discipline, and more security-focused delivery practices.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <p class="timeline-role">Smart Contract Developer</p>
+                                    <p class="timeline-company">Telcoin, LLC. / Santa Monica, CA</p>
+                                </div>
+                                <p class="timeline-date">October 2020 - May 2023</p>
+                            </div>
+                            <ul>
+                                <li>Built cloud and application infrastructure for blockchain products that needed secure, scalable backend services.</li>
+                                <li>Delivered wallet, payments, and profile-data integrations that made partner-dependent transaction flows more reliable.</li>
+                                <li>Helped formalize engineering policies and operating standards so releases were more consistent and less reactive.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="education-strip reveal">
+                    <div class="education-card">
+                        <p class="section-kicker">Education</p>
+                        <h3>New York University</h3>
+                        <p>Master of Science in Computer Science</p>
+                        <span>August 2017 - May 2020</span>
+                    </div>
+                    <div class="education-card">
+                        <p class="section-kicker">Education</p>
+                        <h3>University of California, Irvine</h3>
+                        <p>Bachelor of Science in Chemical Engineering</p>
+                        <span>September 2010 - June 2014</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section work-section" id="work">
+                <div class="section-heading reveal">
+                    <p class="section-kicker">Selected Work</p>
+                    <h2>Public work and case studies.</h2>
+                </div>
+
+                <div class="work-grid">
+                    <article class="work-card work-card-betting reveal">
+                        <div class="work-meta">
+                            <span>Role-based case study</span>
+                            <span>Just Games</span>
+                        </div>
+                        <h3>Decentralized betting protocol architecture</h3>
+                        <p>
+                            Contract architecture for a betting platform where event timing, off-chain data, and settlement had to
+                            stay consistent under production conditions.
+                        </p>
+                        <ul>
+                            <li>Separated contract concerns from event handling and operational services.</li>
+                            <li>Improved test and CI performance to tighten the engineering loop.</li>
+                            <li>Integrated oracle and event-driven workflows for more dependable operations.</li>
+                        </ul>
+                        <p class="stack-line">Solidity / Foundry / TypeScript / CI / Oracle integrations</p>
+                    </article>
+
+                    <article class="work-card work-card-project reveal">
+                        <div class="work-meta">
+                            <span>Public project</span>
+                            <span>GitHub</span>
+                        </div>
+                        <h3>app-platform</h3>
+                        <p>
+                            A product-agnostic user platform built as a modular Go backend with OpenAPI contracts, first-party auth,
+                            session management, uploads, admin tooling, and web and iOS clients against the same API surface.
+                        </p>
+                        <ul>
+                            <li>Built a modular monolith in Go around auth, users, profiles, sessions, uploads, notifications, and admin boundaries.</li>
+                            <li>Used OpenAPI, sqlc, and generated clients to keep backend, web, and native surfaces aligned.</li>
+                            <li>Added readiness checks, request tracing, abuse controls, background jobs, and Docker-backed system validation to make the stack operable.</li>
+                        </ul>
+                        <p class="stack-line">Go / OpenAPI / PostgreSQL / Next.js / SwiftUI / Docker / sqlc</p>
+                        <div class="work-links" aria-label="app-platform project links">
+                            <a class="work-link" href="https://github.com/amshirif/app-platform" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="work-card work-card-platform reveal">
+                        <div class="work-meta">
+                            <span>Public project</span>
+                            <span>GitHub</span>
+                        </div>
+                        <h3>crypto-platform</h3>
+                        <p>
+                            A multi-EVM wallet and payments platform with a Go backend, shared OpenAPI contract, Next.js web app,
+                            and SwiftUI iOS client built around owned execution, session, and reconciliation flows.
+                        </p>
+                        <ul>
+                            <li>Built backend flows for sessions, wallets, balances, activity, transaction intents, signatures, and payment requests.</li>
+                            <li>Structured the platform around generated contracts, worker reconciliation, and provider-backed execution paths.</li>
+                            <li>Used the same contract surface across web and iOS so product behavior stayed consistent as features evolved.</li>
+                        </ul>
+                        <p class="stack-line">Go / OpenAPI / PostgreSQL / Next.js / SwiftUI / Base / worker jobs</p>
+                        <div class="work-links" aria-label="crypto-platform project links">
+                            <a class="work-link" href="https://github.com/amshirif/crypto-platform" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section skills-section" id="skills">
+                <div class="section-heading reveal">
+                    <p class="section-kicker">Skills</p>
+                    <h2>Strengths.</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal">
+                        <h3>Languages and tooling</h3>
+                        <div class="chip-list">
+                            <span>Solidity</span>
+                            <span>TypeScript</span>
+                            <span>Go</span>
+                            <span>OpenAPI</span>
+                            <span>Foundry</span>
+                            <span>sqlc</span>
+                            <span>Docker</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <h3>Smart contract and protocol engineering</h3>
+                        <div class="chip-list">
+                            <span>Protocol architecture</span>
+                            <span>EVM systems</span>
+                            <span>DeFi primitives</span>
+                            <span>Staking and liquidity</span>
+                            <span>Governance modules</span>
+                            <span>Audit-ready testing</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <h3>Infrastructure and delivery</h3>
+                        <div class="chip-list">
+                            <span>API design</span>
+                            <span>Auth and sessions</span>
+                            <span>CI and build pipelines</span>
+                            <span>Background jobs</span>
+                            <span>Wallet and payments flows</span>
+                            <span>Off-chain data ingestion</span>
+                            <span>Operational reliability</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p><span id="footer-date"></span></p>
+        </footer>
     </div>
-    <!-- end of preloader -->
 
+    <script>
+        const navToggle = document.querySelector(".nav-toggle");
+        const siteHeader = document.querySelector(".site-header");
+        const navLinks = Array.from(document.querySelectorAll(".site-nav a"));
+        const revealTargets = Array.from(document.querySelectorAll(".reveal"));
+        const sections = navLinks
+            .map((link) => document.querySelector(link.getAttribute("href")))
+            .filter(Boolean);
+        const footerDateNode = document.querySelector("#footer-date");
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+        const setCurrentNavLink = (sectionId) => {
+            navLinks.forEach((link) => {
+                const matches = link.getAttribute("href") === `#${sectionId}`;
+                if (matches) {
+                    link.setAttribute("aria-current", "page");
+                } else {
+                    link.removeAttribute("aria-current");
+                }
+            });
+        };
 
-        <!-- Image Logo -->
-        <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+        const syncCurrentNavLink = () => {
+            if (!sections.length) {
+                return;
+            }
 
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
+            const navOffset = (siteHeader?.querySelector(".nav-wrap")?.offsetHeight ?? 0) + 48;
+            const scrollPosition = window.scrollY + navOffset;
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#profile">PROFILE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#experience">EXPERIENCE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#skills">SKILLS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-    </nav> <!-- end of navbar -->
-    <!-- end of navbar -->
+            let currentSectionId = null;
 
+            sections.forEach((section) => {
+                if (section.offsetTop <= scrollPosition) {
+                    currentSectionId = section.id;
+                }
+            });
 
-    <!-- Header -->
-    <header id="header" class="header">
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-container">
-                            <h1>Amir Shirif</h1>
-                            <!-- <h2><span id="js-rotating">Engineer, Athlete, Student</span></h2> -->
-                            <h2>Blockchain Developer</h2>
-                            <p class="p-heading p-large">Virtual resume</p>
-                            <a class="btn-solid-lg page-scroll" href="#profile">DISCOVER</a>
-                        </div>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of header-content -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
+            setCurrentNavLink(currentSectionId);
+        };
 
+        const setNavState = (isOpen) => {
+            if (!siteHeader || !navToggle) {
+                return;
+            }
 
-    <!-- Profile -->
-    <div id="profile" class="basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="text-container">
-                        <div class="section-title">Profile</div>
-                        <h2>At First Glance</h2>
-                        <p>I am a Blockchain Developer specializing in the Ethereum blockchain. I enjoy keeping up to date on all of the changes of this quickly developing space, and
-                          spend much of my time continuing my education through creating my own projects. I do not restrict myself to the blockchain; however, but explore all areas software development.
-                          Education does not end at graduation and I pride myself on being a life-long student. On top of this I stay active and enjoy spending as much time outdoors as possible with my dog, Sasha.</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/profile-pic.jpg" alt="alternative" width="500" height="500">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of prfile -->
+            siteHeader.classList.toggle("nav-open", isOpen);
+            navToggle.setAttribute("aria-expanded", String(isOpen));
+            navToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+        };
 
-    <!-- Experience -->
-    <div id="experience" class="cards-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">EXPERIENCE</div>
-                    <h2>Education</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+        if (footerDateNode) {
+            footerDateNode.textContent = new Intl.DateTimeFormat(undefined, {
+                month: "long",
+                year: "numeric",
+            }).format(new Date());
+        }
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/nyu_flag.jpg" alt="alternative" width="400" height="400">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title" style="text-align:center">New York University</h3>
-                            <p style="text-align:center">September 2017 - May 2020</p>
-                            <p style="text-align:center">Focus was applied to software development principles</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Masters in <b>Computer Science</b></div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">GPA: <b>3.528</b></div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
+        if (navToggle && siteHeader) {
+            setNavState(false);
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/uci-running.jpg" alt="alternative" width="400" height="300">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title" style="text-align:center">University of California, Irvine</h3>
-                            <p style="text-align:center">September 2010 - June 2014</p>
-                            <p style="text-align:center">Participated in Cross Country, Track and Field, and a Material Science Research Program</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Bachelors in <b>Chemical Engineering</b></div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end of card -->
+            navToggle.addEventListener("click", () => {
+                setNavState(!siteHeader.classList.contains("nav-open"));
+            });
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/desert.jpg" alt="alternative" width="400" height="300">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title" style="text-align:center">Desert Ridge High School</h3>
-                            <p style="text-align:center">August 2006 - May 2010</p>
-                            <p style="text-align:center">It's important to never forget where you come from!</p>
-                            <p style="text-align:center">Go Jags!</p>
-                        </div>
-                    </div>
-                    <!-- end of card -->
+            document.addEventListener("click", (event) => {
+                if (!siteHeader.classList.contains("nav-open") || !(event.target instanceof Node)) {
+                    return;
+                }
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Work History</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+                if (siteHeader.contains(event.target)) {
+                    return;
+                }
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/telcoin_img.jpg" alt="alternative">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title" style="text-align:center">Telcoin</h3>
-                            <p style="text-align:center">Blockchain Developer</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Build out the cloud infrastructure</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Develop Ethereum smart contracts in Solidity</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Support integrations with payments and wallet platforms</div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="button-container">
-                            <a class="btn-solid-reg page-scroll" href="https://www.telco.in/">Show Me</a>
-                        </div> <!-- end of button-container -->
-                    </div>
-                    <!-- end of card -->
+                setNavState(false);
+            });
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/dorilton_img.jpg" alt="alternative">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title" style="text-align:center">Dorilton Capital</h3>
-                            <p style="text-align:center">Computer Science Intern</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Created hardware/software request platform for subsidiaries</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Supported technology team with development of company’s intranet</div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="button-container">
-                            <a class="btn-solid-reg page-scroll" href="https://www.doriltoncapital.com/">Show Me</a>
-                        </div> <!-- end of button-container -->
-                    </div>
-                    <!-- end of card -->
+            document.addEventListener("keydown", (event) => {
+                if (event.key !== "Escape" || !siteHeader.classList.contains("nav-open")) {
+                    return;
+                }
 
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="images/Centrix_img.jpg" alt="alternative">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title" style="text-align:center">Centrix Health Resources</h3>
-                            <p style="text-align:center">Full Stack Assistant Developer</p>
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Contributed to front-end development of <a class="white" style="color:black" href="https://care2bid.org/"><b>Care2Bid.org</b></a></div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Responsible for platform integration with user profile data</div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="button-container">
-                            <a class="btn-solid-reg page-scroll" href="http://care.info/">Show Me</a>
-                        </div> <!-- end of button-container -->
-                    </div>
-                    <!-- end of card -->
+                setNavState(false);
+                navToggle.focus();
+            });
+        }
 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
+        navLinks.forEach((link) => {
+            link.addEventListener("click", () => {
+                const targetId = link.getAttribute("href")?.slice(1);
+                if (targetId) {
+                    setCurrentNavLink(targetId);
+                }
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Would you like a copy of my resume?</h2>
-                    <div class="button-container">
-                        <a class="btn-solid-reg page-scroll" href="images/AMIR_SHIRIF_RESUME.pdf" download>Resume</a>
-                    </div> <!-- end of button-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div>
-    </div> <!-- end of cards-2 -->
-    <!-- end of experience -->
+                if (siteHeader?.classList.contains("nav-open")) {
+                    setNavState(false);
+                }
+            });
+        });
 
-    <!-- Projects -->
-	<div id="projects" class="filter">
-		<div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">PROJECTS</div>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row"><!-- Description -->
-            <div class="cards-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
+        window.addEventListener("scroll", syncCurrentNavLink, { passive: true });
+        window.addEventListener("resize", syncCurrentNavLink);
+        syncCurrentNavLink();
 
-                            <!-- Card -->
-                            <div class="card" style="text-align:center">
-                              <a class="white" style="text-decoration:none" href="http://trulyworthless.com/">
-                                <span class="fa-stack">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-ethereum fa-stack-1x"></i>
-                                </span>
-                                <div class="card-body">
-                                    <h4 class="card-title">TrulyWorthless</h4>
-                                    <p>An Ethereum ERC20 Token project written in Solidity. This project is coupled with a growing catalog of dAPPs.</p>
-                                </div>
-                              </a>
-                            </div>
-                            <!-- end of card -->
+        if ("IntersectionObserver" in window) {
+            const revealObserver = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((entry) => {
+                        if (!entry.isIntersecting) {
+                            return;
+                        }
 
-                            <!-- Card -->
-                            <div class="card" style="text-align:center">
-                              <a class="white" style="text-decoration:none" href="#your-link">
-                                <span class="fa-stack">
-                                    <span class="hexagon"></span>
-                                    <i class="fab fa-java fa-stack-1x"></i>
-                                </span>
-                                <div class="card-body">
-                                    <h4 class="card-title">Java Projects</h4>
-                                    <p>A series of Java Applications showcasing different software development practices.<br>Coming Soon!</p>
-                                </div>
-                              </a>
-                            </div>
-                            <!-- end of card -->
+                        entry.target.classList.add("is-visible");
+                        revealObserver.unobserve(entry.target);
+                    });
+                },
+                {
+                    threshold: 0.18,
+                    rootMargin: "0px 0px -10% 0px",
+                }
+            );
 
-                            <!-- Card -->
-                            <div class="card" style="text-align:center">
-                              <a class="white" style="text-decoration:none" href="#your-link">
-                                <span class="fa-stack">
-                                    <span class="hexagon"></span>
-                                    <i class="far fa-question-circle fa-stack-1x"></i>
-                                </span>
-                                <div class="card-body">
-                                    <h4 class="card-title">TODO</h4>
-                                    <p>Always Look forward to the future and have more plans coming down the pipeline!<br>Coming Soon!</p>
-                                </div>
-                              </a>
-                            </div>
-                            <!-- end of card -->
-                        </div> <!-- end of col -->
-                    </div> <!-- end of row -->
-                </div> <!-- end of container -->
-            </div> <!-- end of cards-1 -->
-            <!-- end of description -->
-            </div> <!-- end of row -->
-		</div> <!-- end of container -->
-    </div> <!-- end of filter -->
-    <!-- end of projects -->
-
-    <!-- Contact -->
-    <div id="contact" class="form-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container">
-                        <div class="section-title">CONTACT</div>
-                        <h2>Connect With Me</h2>
-                        <p>I am happy to chat with anyone regarding any exciting projects!</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="address"><i class="fas fa-map-marker-alt"></i>Glendale, CA</li>
-                            <li><i class="fas fa-envelope"></i>amshirif@gmail.com</li>
-                        </ul>
-                        <h3>Connect With Me On Social Media</h3>
-
-                        <span class="fa-stack">
-                            <a href="https://www.facebook.com/amir.shirif">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.linkedin.com/in/amir-shirif-b1bb8848/">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://github.com/amshirif">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-github fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-2 -->
-    <!-- end of contact -->
-
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-container about">
-                        <h4>Words of Wisdom</h4>
-                        <p class="white">“The practice of science happens at the border between the known and the unknown. Standing on the shoulders of giants, we peer into the darkness with eyes opened, not in fear, but in wonder.”<br>-Brian Cox</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-
-                <div class="col-md-3">
-                    <div class="text-container">
-                        <h4>Top Projects</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="http://trulyworthless.com/">TrulyWorthless</a>
-                            </li>
-                            <li>
-                                <a class="white" href="#your-link">Java Projects</a>
-                            </li>
-                            <li>
-                                <a class="white" href="#your-link">ToDo</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-3">
-                    <div class="text-container">
-                        <h4>Work Links</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="https://www.facebook.com/amir.shirif">Facebook</a>
-                            </li>
-                            <li>
-                                <a class="white" href="https://www.linkedin.com/in/amir-shirif-b1bb8848/">LinkedIn</a>
-                            </li>
-                            <li>
-                                <a class="white" href="https://github.com/amshirif">GitHub</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->
-    <!-- end of footer -->
-
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
-    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+            revealTargets.forEach((target) => revealObserver.observe(target));
+        } else {
+            revealTargets.forEach((target) => target.classList.add("is-visible"));
+        }
+    </script>
 </body>
 </html>
